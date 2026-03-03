@@ -1,80 +1,24 @@
 <!DOCTYPE html>
-<html class="img-no-display"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-<link rel="shortcut icon" href="#">
-<title>Matthew's Site</title>
-<style>
-html {
-    height: 100%;
-    overflow: auto;
-	padding: 0;
-    margin: 0;  
-}
-body {
-    height: 100%;
-	padding: 0;
-    margin: 0;
-}
-div#outer {
-    display: table;
-    height: 100%;
-    width: 100%;
-}
-div#inner {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-div#container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-    min-width: 800px;
-    min-height: 580px;
-}
-img {
-    width: 498px;
-    height: 739px;
-    margin: 30px 0;
-}
-p#header {
-    font-family: Calibri;
-    font-size: 60px;
-    color: #323C46;
-    text-align: center;
-    line-height: 64px;
-    margin-top: 0;
-    margin-bottom: 12px;
-}
-p#paragraph {
-    font-family: Calibri;
-    font-size: 36px;
-    color: #323C46;
-    text-align: center;
-    line-height: 40px;
-	margin: 0 auto;
-}
-
-</style>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" >
+	<meta name="author" content="M. D. Wan">
+	<meta name="viewport" content="initial-scale=1,  width=device-width">
+	<title>Matthew's Site</title>
+	<style>
+		.paragraph {
+			color:black;
+			font-size:4vw;
+		}
+	</style>
 </head>
 <body>
-    <div id="outer">
-        <div id="inner">
-            <div id="container">
-				<div>
-                <p id="header">Thanks for stopping by!</p>
-                <img src="Construction.jpg"/>
-                
-                <p id="paragraph">I'm working on making this a real site!</p>
-                <p id="paragraph"> </p>
-                <p id="paragraph">This page first opened on 2/22/26</p>
-                <p id="paragraph">This page was last updated on 2/23/26</p>
-                
-				</div>
-			</div>
-        </div>
-    </div>
+    <h1 style="font-size:6vw;">Thanks for stopping by!</h1>
+	<img src="Construction.jpg" style="max-width:80%; height:auto;"> 
+	<p>I'm working on making this a real site!</p>
+	<p class="paragraph"> </p>
+	<p class="paragraph">This page first opened on 2/22/26</p>
+	<p class="paragraph">This page was last updated on 3/2/26</p>
+	<p style="font-size:3vw;"> Changelog:3/2/26 made elements responsive and mobile-friendly</p>
 </body>
 </html>
